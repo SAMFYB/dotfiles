@@ -98,6 +98,7 @@ alias gc='git add . ; git commit -m'
 alias gd=gd_with_status
 alias gg='git log --graph --oneline'
 alias gl='git pull'
+alias go='git open'
 alias gp='git push'
 alias gr='git remote -v'
 alias gs='git status'
