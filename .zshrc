@@ -111,13 +111,14 @@ gd_with_status () {
   git status
 }
 
-alias top=htop
-alias untar='tar -xvf'
-
 alias sml='rlwrap sml'
 alias gdb='rlwrap gdb'
 alias python='rlwrap python'
 alias python3='rlwrap python3'
+
+alias top=htop
+alias untar='tar -xvf'
+alias note='vim ~/notes'
 
 source ~/.zsh+more
 
