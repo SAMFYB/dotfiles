@@ -95,6 +95,8 @@ alias cp='cp -v'
 
 alias gb='git checkout -b'
 alias gc='git add . ; git commit -m'
+alias gcout='git checkout'
+alias gcln='git clone'
 alias gd=gd_with_status
 alias gg='git log --graph --oneline --decorate'
 alias gl='git pull'
