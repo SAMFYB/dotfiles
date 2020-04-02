@@ -127,9 +127,9 @@ alias note='vim ~/notes'
 source ~/.zsh+more
 
 # Overwrite theme prompt
-autoload -U promptinit; promptinit
-prompt pure
-zstyle :prompt:pure:path color 39
-zstyle :prompt:pure:git:branch color 41
-zstyle :prompt:pure:prompt:success color 103
-zstyle :prompt:pure:prompt:error color 190
+# autoload -U promptinit; promptinit
+# prompt pure
+# zstyle :prompt:pure:path color 39
+# zstyle :prompt:pure:git:branch color 41
+# zstyle :prompt:pure:prompt:success color 103
+# zstyle :prompt:pure:prompt:error color 190
