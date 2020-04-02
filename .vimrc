@@ -101,14 +101,14 @@ set background=dark
 colorscheme abstract
 
 " Better line number highlighting
-highlight LineNr ctermbg=235 ctermfg=240
+highlight LineNr ctermbg=234 ctermfg=240
 
 " Display useful invisible characters
 set list
 set listchars=tab:--
 
-set cursorline
-highlight CursorLine ctermbg=235 ctermfg=15
+" set cursorline
+" highlight CursorLine ctermbg=235 ctermfg=15
 
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set encoding=utf-8
