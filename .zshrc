@@ -52,8 +52,10 @@ export LANG=en_US.UTF-8
 #   export EDITOR='mvim'
 # fi
 
-# Export existing paths
-source ~/.zsh+path
+# Export custom paths
+if [ -f ~/.zsh+path ]; then
+  source ~/.zsh+path
+fi
 
 # alias dragon=dragon
 # dragon () {
@@ -125,7 +127,9 @@ alias top=htop
 alias untar='tar -xvf'
 alias note='vim ~/notes'
 
-source ~/.zsh+more
+if [ -f ~/.zsh+more ]; then
+  source ~/.zsh+more
+fi
 
 # Overwrite theme prompt
 # autoload -U promptinit; promptinit
