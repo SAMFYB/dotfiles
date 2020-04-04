@@ -7,7 +7,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="typewritten"
+ZSH_THEME="pi"
 
 # Uncomment the following line to disable auto-setting terminal title.
 DISABLE_AUTO_TITLE="true"
@@ -119,6 +119,7 @@ alias sml='rlwrap sml'
 alias gdb='rlwrap gdb'
 alias python='rlwrap python'
 alias python3='rlwrap python3'
+alias pip='python3 -m pip'
 
 alias top=htop
 alias untar='tar -xvf'
