@@ -35,6 +35,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'       " Better Markdown support vol. 2
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'tomlion/vim-solidity'
 Plug 'wavded/vim-stylus'
+Plug 'jparise/vim-graphql'
 
 " Functionality/Convenience plugins
 " Plug 'tpope/vim-commentary'            " Easily comment/uncomment things
