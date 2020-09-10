@@ -33,6 +33,8 @@ Plug 'jez/vim-c0'                         " C0 syntax highlighting support (for 
 Plug 'vim-pandoc/vim-pandoc'              " Better Markdown support
 Plug 'vim-pandoc/vim-pandoc-syntax'       " Better Markdown support vol. 2
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'tomlion/vim-solidity'
+Plug 'wavded/vim-stylus'
 
 " Functionality/Convenience plugins
 " Plug 'tpope/vim-commentary'            " Easily comment/uncomment things
