@@ -120,9 +120,7 @@ gd_with_status () {
 
 alias sml='rlwrap sml'
 alias gdb='rlwrap gdb'
-alias python='rlwrap python'
-alias python3='rlwrap python3'
-alias pip='python3 -m pip'
+alias python='rlwrap python3'
 
 alias top=htop
 alias untar='tar -xvf'
