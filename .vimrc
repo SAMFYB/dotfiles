@@ -14,9 +14,6 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-" Color scheme plugins
-Plug 'crusoexia/vim-monokai'
-
 " Appearance/layout plugins
 " Plug 'vim-airline/vim-airline'
 " Plug 'vim-airline/vim-airline-themes'
@@ -81,27 +78,29 @@ Plug 'ctrlpvim/ctrlp.vim' | Plug 'tacahiroy/ctrlp-funky'
 Plug 'mileszs/ack.vim'
 Plug 'kshenoy/vim-signature'
 
-" Additional colorschemes
+" Colorschemes
 Plug 'sainnhe/edge'
 Plug 'arcticicestudio/nord-vim'
 Plug 'jdsimcoe/abstract.vim'
+Plug 'crusoexia/vim-monokai'
+Plug 'whatyouhide/vim-gotham'
 
 call plug#end()
 
 "------------------ End Plugin Management -----------------
 
 " This lets us use 24-bit "true" colors in the terminal
-if exists('+termguicolors')
-  set termguicolors
-endif
+" if exists('+termguicolors')
+"   set termguicolors
+" endif
 
 " IMPORTANT: UNCOMMENT THIS FOR COLORSCHEMES
 " Colors (must be set after vim-plug loads themes)
-" colorscheme gruvbox
-set background=dark
+" set background=dark
 " colorscheme monokai
-" colorscheme edge
-colorscheme abstract
+colorscheme edge
+" colorscheme abstract
+" colorscheme gotham
 
 " Better line number highlighting
 highlight LineNr ctermbg=234 ctermfg=240
