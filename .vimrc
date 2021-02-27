@@ -105,7 +105,7 @@ colorscheme edge
 " colorscheme gotham
 
 " Better line number highlighting
-highlight LineNr ctermbg=235 ctermfg=242
+highlight LineNr ctermbg=235 ctermfg=240
 
 " Display useful invisible characters
 set list
@@ -122,7 +122,7 @@ set showcmd                    " display incomplete commands
 set incsearch                  " do incremental searching
 set splitright                 " Vertical splits use right half  of screen
 set splitbelow                 " Horizontal splits use bottom half  of screen
-" set colorcolumn=81             " show a column whenever textwidth is set
+set colorcolumn=120            " show a column whenever textwidth is set
 set hidden                     " buffer becomes hidden when it is abandoned
 set wildmenu                   " visual autocomplete for command menu
 set wildmode=full              " complete first match immediately
