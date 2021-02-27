@@ -30,7 +30,7 @@ plugins=(
 # wd
 # tmux
 # fast-syntax-highlighting
-  git-open
+# git-open
 # zsh-autosuggestions
 )
 
@@ -67,15 +67,12 @@ fi
 # Extra sudo confirmation
 alias sudo=confirmsudo
 confirmsudo () {
-  tput setaf 160
   read "CONFIRM?sudo (yes/no) "
   if [[ "$CONFIRM" == yes ]]
   then
-    tput sgr0
     \sudo "$@"
   else
-    echo 'Abort'
-    tput sgr0
+    echo 'ABORT'
   fi
 }
 
@@ -102,30 +99,22 @@ alias gc='git add . ; git commit -m'
 alias gcam='git add . ; git commit --amend --no-edit'
 alias gcout='git checkout'
 alias gcln='git clone'
-alias gd=gd_with_status
+alias gd='git --no-pager diff ; git status'
 alias gg='git log --all --graph --oneline --decorate'
 alias gl='git pull'
-alias go='git open'
+# alias go='git open' # not working anymore
 alias gp='git push'
 alias gr='git remote -v'
 alias gs='git status'
 
-gd_with_status () {
-  git --no-pager diff
-  tput setaf 250
-  echo '----------------------------------------'
-  tput sgr0
-  git status
-}
-
-alias sml='rlwrap sml'
-alias gdb='rlwrap gdb'
-alias python='rlwrap python3'
+# alias sml='rlwrap sml'
+# alias gdb='rlwrap gdb'
+# alias python='rlwrap python3'
 alias pip=pip3
 
 alias top=htop
 alias untar='tar -xvf'
-alias note='vim ~/notes'
+# alias note='vim ~/notes'
 
 if [ -f ~/.zsh+more ]; then
   source ~/.zsh+more

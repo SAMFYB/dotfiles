@@ -85,6 +85,7 @@ Plug 'kshenoy/vim-signature'
 Plug 'sainnhe/edge'
 Plug 'arcticicestudio/nord-vim'
 Plug 'jdsimcoe/abstract.vim'
+Plug 'srcery-colors/srcery-vim'
 
 call plug#end()
 
@@ -98,7 +99,7 @@ endif
 " IMPORTANT: UNCOMMENT THIS FOR COLORSCHEMES
 " Colors (must be set after vim-plug loads themes)
 " colorscheme gruvbox
-set background=dark
+" set background=dark
 " colorscheme monokai
 " colorscheme edge
 colorscheme abstract
