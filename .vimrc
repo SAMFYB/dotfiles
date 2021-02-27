@@ -98,14 +98,14 @@ call plug#end()
 " IMPORTANT: UNCOMMENT THIS FOR COLORSCHEMES
 " Colors (must be set after vim-plug loads themes)
 " colorscheme gruvbox
-" set background=dark
+set background=dark
 " colorscheme monokai
 colorscheme edge
 " colorscheme abstract
 " colorscheme gotham
 
 " Better line number highlighting
-highlight LineNr ctermbg=234 ctermfg=240
+highlight LineNr ctermbg=235 ctermfg=242
 
 " Display useful invisible characters
 set list
